@@ -82,6 +82,16 @@ h1 {
   margin: 0; /* Remove margem padrão do parágrafo dentro da resposta */
 }
 
+ul {
+  list-style: circle;
+}
+
+li {
+  color: #666;
+  line-height: 1.4;
+  margin: 0; /* Remove margem padrão do parágrafo dentro da resposta */
+}
+
 footer {
   margin-top: 50px;
   font-size: 1em;
