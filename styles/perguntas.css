@@ -78,7 +78,7 @@ h1 {
   color: #666;
   font-size: 1em;
   line-height: 1.6;
-  padding-bottom: 20px; /* Adiciona espaçamento no final do parágrafo */
+  padding-bottom: 20px;
   margin: 0; /* Remove margem padrão do parágrafo dentro da resposta */
 }
 
@@ -119,6 +119,10 @@ footer {
   background-color: #188a80;
   transform: translateY(-2px);
   box-shadow: 0 7px 18px rgba(0, 0, 0, 0.15);
+}
+
+.contact-button i {
+  margin-right: 8px;
 }
 
 @media (max-width: 768px) {
