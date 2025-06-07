@@ -35,6 +35,10 @@ p {
   margin-top: 10px;
 }
 
+li {
+  list-style-type: none;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 30px 15px;
