@@ -125,6 +125,18 @@ footer {
   margin-right: 8px;
 }
 
+img {
+  width: 90%;
+  max-width: 205px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+}
+
 @media (max-width: 768px) {
   .faq-container {
     padding: 15px;
@@ -148,6 +160,11 @@ footer {
   .faq-answer p {
     font-size: 0.95em;
     padding-bottom: 15px;
+  }
+
+  img {
+    margin: 0 auto 20px;
+    max-width: 180px;
   }
 
   .contact-button {
